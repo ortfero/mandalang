@@ -5,7 +5,7 @@ Simple calculation language
 ## Snippets
 
 ```
-let fib = fn(integer n) -> integer if n < 2 then n else fib(n - 2) + fib(n - 1)
+let fib = fn(integer n) -> integer if n < 2 then n else self(n - 2) + self(n - 1)
 fib(40)
 ```
 
